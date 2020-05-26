@@ -10,9 +10,9 @@ const CSV_FILENAME = './table.csv'
   ------
    Run from the command line with two parameters:
   - Region (eg. us-east-1)
-  - DynamoDB table (e.g. theme-park-backend-DynamoDBTable-ABCDE1234XYZ)
+  - DynamoDB table (e.g. sam-sls-backend-DynamoDBTable-ABCDE1234XYZ)
 
-  E.g. node .\importData.js us-west-2 theme-park-backend-DynamoDBTable-ABCDE1234XYZ
+  E.g. node .\importData.js us-west-2 sam-sls-backend-DynamoDBTable-ABCDE1234XYZ
 */
 
 const uploadFileToDynamoDB = (err, data) => {
