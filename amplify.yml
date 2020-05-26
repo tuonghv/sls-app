@@ -6,6 +6,7 @@ frontend:
       commands:
         - nvm use $VERSION_NODE_12
         - node -v
+        - ls
         - cd sls-frontend
         - npm ci
     # IMPORTANT - Please verify your build commands

@@ -170,9 +170,11 @@ aws cloudformation describe-stacks --stack-name sam-sls-backend --query "Stacks[
 ```
 **Note the ```OutputValue``` for the InitStateApi** - this is your API Gateway endpoint. You will need this in later sections.
 
-3. Once you have the endpoint URL, select the URL link in the Cloud9 terminal and select Open: 
+1. Once you have the endpoint URL, select the URL link in the Cloud9 terminal. 
 
-![Module 1 open InitStateAPIURL](./assets/images/module2-open-initstateAPIURL.png)
+```bash
+https://5mebxbjz1f.execute-api.ap-southeast-1.amazonaws.com/Prod/InitState/
+```
 
 This opens another browser tab and returns all the raw ride and attraction data from the DynamoDB table via API Gateway and Lambda. You have now created a public API that your frontend application can use to populate the map with points of interest.
 
@@ -195,7 +197,12 @@ This file contains a JSON configuration for the frontend. The file is separated 
 
 4. **Save the file**.
 
-![Module 1 - InitStateAPIURL](./assets/images/module1-initStateAPI.png)
+```js
+export const appConfig = {
+  // MODULE 1- BACKEND
+  initStateAPI: 'https://5mebxbjz1f.execute-api.ap-southeast-1.amazonaws.com/Prod/InitState/',
+  // MODULE 2 - REALTIME
+```
 
 ### Push to CodeCommit and deploy via Amplify
 
