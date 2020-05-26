@@ -2,12 +2,17 @@ version: 0.1
 
 frontend:
   phases:
+    preBuild:
+      commands:
+        - nvm use $VERSION_NODE_12
+        - node -v
+        - cd sls-frontend
+        - npm ci
     # IMPORTANT - Please verify your build commands
     build:
       commands:
-        - node -v
+        - nvm use $VERSION_NODE_12
         - cd sls-frontend
-        - npm install
         - npm run build
   artifacts:
     # IMPORTANT - Please verify your build output directory

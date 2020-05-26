@@ -34,12 +34,12 @@ See the diagram below for the complete architecture.
 
 After setting up your **Cloud9** environment, follow the modules in order:
 
-* [x] Module 1. Deploy the App | Deploy the initial frontend and backend applications. 
-* [ ] Module 2. Ride wait times | Integrate your application with the ride systems so guests can see wait times.
-* [ ] Module 3. Ride photos | Build a photo processing flow so guests can take selfies around the park.
-* [ ] Module 4. Translation | Help international guests understand the app by adding language translation.
-* [ ] Module 5. Analyzing visitor stats | Collecting and analyzing large amounts of data from park guests.
-* [ ] Module 6. Developing event-based architecture | Routing park maintenance events depending upon severity.
+* [x] **Module 1. Deploy the App** | Deploy the initial frontend and backend applications. 
+* [ ] **Module 2. Ride wait times** | Integrate your application with the ride systems so guests can see wait times.
+* [ ] **Module 3. Ride photos** | Build a photo processing flow so guests can take selfies around the park.
+* [ ] **Module 4. Translation** | Help international guests understand the app by adding language translation.
+* [ ] **Module 5. Analyzing Visitor stats** | Collecting and analyzing large amounts of data from park guests.
+* [ ] **Module 6. Developing Event-based Architecture** | Routing park maintenance events depending upon severity.
 
 If you run out of time in the workshop, don't panic! This GitHub repository is public and is available after your workshop ends.
 
