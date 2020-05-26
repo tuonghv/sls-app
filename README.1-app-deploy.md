@@ -71,6 +71,8 @@ cd ~/environment/sls-app/sam-ride-controller/
 5. Use SAM CLI to deploy the first part of the infrastructure by running the following commands:
 
 ```bash
+sam build
+
 sam package --output-template-file packaged.yaml --s3-bucket $s3_deploy_bucket
 
 sam deploy --template-file packaged.yaml --stack-name sam-ride-times --capabilities CAPABILITY_IAM
