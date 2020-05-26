@@ -6,14 +6,13 @@ frontend:
       commands:
         - nvm use $VERSION_NODE_12
         - node -v
-        - ls
-        - cd sls-frontend
-        - npm ci
     # IMPORTANT - Please verify your build commands
     build:
       commands:
         - nvm use $VERSION_NODE_12
+        - ls
         - cd sls-frontend
+        - npm ci
         - npm run build
   artifacts:
     # IMPORTANT - Please verify your build output directory
