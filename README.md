@@ -6,7 +6,7 @@ You will be developing & deploying a completely Serverless Web Application built
 
 This exciting new **Theme Park**, combines roller coasters and rides with shows and exhibits. The park will open every day and expects up to **50,000 visitors daily**. It's self-guided, using a Web Application that Guests can browse on their Smartphones. 
 
-The only "slight" problem is that the development team has suddenly left and the park's Grand Opening is today! You only have 4 hours to finish assembling the remaining pieces of the application before the gates open. But don't worry, **Serverless** is at hand! These instructions will guide you through using AWS Services to assemble a complete application so you can save the day.
+The only "slight" problem is that the development team has suddenly left and the park's Grand Opening is today! You only have 20 hours to finish assembling the remaining pieces of the application before the gates open. But don't worry, **Serverless** is at hand! These instructions will guide you through using AWS Services to assemble a complete application so you can save the day.
 
 ## Application structure
 
