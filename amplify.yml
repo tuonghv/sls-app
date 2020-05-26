@@ -1,0 +1,18 @@
+version: 0.1
+
+frontend:
+  phases:
+    # IMPORTANT - Please verify your build commands
+    build:
+      commands:
+        - node -v
+        - cd sls-frontend
+        - npm install
+        - npm run build
+  artifacts:
+    # IMPORTANT - Please verify your build output directory
+    baseDirectory: sls-frontend/dist
+    files:
+      - '**/*'
+  cache:
+    paths: []

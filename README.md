@@ -34,14 +34,12 @@ See the diagram below for the complete architecture.
 
 After setting up your **Cloud9** environment, follow the modules in order:
 
-Module # | Feature | Description
------------- | ------------- | -------------
-1 | Deploy the App | Deploy the initial frontend and backend applications.
-2 | Ride wait times | Integrate your application with the ride systems so guests can see wait times.
-3 | Ride photos | Build a photo processing flow so guests can take selfies around the park.
-4 | Translation | Help international guests understand the app by adding language translation.
-5 | Analyzing visitor stats | Collecting and analyzing large amounts of data from park guests.
-6 | Developing event-based architecture | Routing park maintenance events depending upon severity.
+* [x] Module 1. Deploy the App | Deploy the initial frontend and backend applications. 
+* [ ] Module 2. Ride wait times | Integrate your application with the ride systems so guests can see wait times.
+* [ ] Module 3. Ride photos | Build a photo processing flow so guests can take selfies around the park.
+* [ ] Module 4. Translation | Help international guests understand the app by adding language translation.
+* [ ] Module 5. Analyzing visitor stats | Collecting and analyzing large amounts of data from park guests.
+* [ ] Module 6. Developing event-based architecture | Routing park maintenance events depending upon severity.
 
 If you run out of time in the workshop, don't panic! This GitHub repository is public and is available after your workshop ends.
 
@@ -55,7 +53,7 @@ If you are using your own AWS account, this workshop uses AWS services that are 
 
 ### Next steps
 
-:white_check_mark: Proceed to the [Module 1](./README.1-app-deploy.md), where you'll start setting up your application.
+:white_check_mark: Proceed to the [Module 1 - Deploy the App](./README.1-app-deploy.md), where you'll start setting up your application.
 
 [amplify-console]: https://aws.amazon.com/amplify/console/
 [cognito]: https://aws.amazon.com/cognito/
