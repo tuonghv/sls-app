@@ -26,7 +26,7 @@
 */
 export const appConfig = {
   // MODULE 1- BACKEND
-  initStateAPI: 'https://32c6oeylqk.execute-api.ap-southeast-1.amazonaws.com/Prod/InitState/', // e.g. https://5mebxbjz1f.execute-api.ap-southeast-1.amazonaws.com/Prod/InitState/
+  initStateAPI: 'https://5mebxbjz1f.execute-api.ap-southeast-1.amazonaws.com/Prod/InitState/', // e.g. https://5mebxbjz1f.execute-api.ap-southeast-1.amazonaws.com/Prod/InitState/
   // MODULE 2 - REALTIME
   iot: {
     poolId: '', // e.g. 'ap-southeast-1:1abcdef-1234-abcd-1234-abcde123456'
